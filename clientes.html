@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Stylin Barber</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+<!--//Span de contacto//-->
+    <header class="container-fluid bg bg-danger d-flex justify-content-center">
+        <span><p class="text-light mb-0 p-2 fs-5">Ingresa tu Correo Electronico para obtener un 15% de DESCUENTO!!</p></span>
+    </header>
+<!--//Barra de navegacion//-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Style Barber</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destacados">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reseñas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactos">Contactanos!</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Ofertas!</a>
+              </li>
+            </ul>
+            <form id="formulario de descuento" class="d-flex" role="email">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+                <button class="btn btn-outline-success" type="button">Oferta!</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <h2 >"Deja tu estilo en manos de expertos"</h2>
+<!--Servicios que se prestan-->
+     <section id="destacados">
+            <h2>Nuestros servicios destacados y ofertas</h2>
+            <h3>NUESTROS SERVICIOS</h3>
+            <div class="servicio_destacado">
+                <div class="servicios">
+                    <img src="./img/servicios/corte.jpg" >
+                    <p>Corte</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/barba.jpg" >
+                    <p>Barba</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/manicure.jpg" >
+                    <p>Manicure</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/pedicure.jpg" >
+                    <p>Pedicure</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/masaje.jpg" >
+                    <p>Masaje y Spa</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/depilacion.jpg" >
+                    <p>Depilación</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/tratamiento_capilar.jpg" >
+                    <p>Tratamiento Capilar</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/tratamientos_faciales.jpg" >
+                    <p>Tratamiento Facil</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/tintura.jpg" >
+                    <p>Tintura</p>
+                </div>
+                <div class="servicios">
+                    <img src="./img/servicios/combos.jpg" >
+                    <p>Venta Combos</p>
+                </div>
+            <div></div>
+        </section>
+
+
+<!--Agenda Y contacto-->
+        <div class="contenedor_principal">
+            <div class="agenda">
+                <h1 id="titulo_agenda">Agenda del mes</h1>
+                <img src="./img/calendario.png" alt="" height="400" width=275>
+            </div>
+    
+            <div id="contactos" class="contenedor_contacto">
+                <h2>CONTACTANOS!</h2>
+                <form action="" class="contacto">
+                    <input type="text" placeholder="Nombres">
+                    <input type="email" placeholder="Correo Electronico">
+                    <input type="number" placeholder="Telefono">
+                    <button>Enviar</button>
+                    <p>Nos pondremos en contacto contigo para confirmar tu agenda y horario...</p>
+                    <h3>Gracias por elegirnos!</h3>
+                </form>
+            </div>
+        </div>
+        <!--Descuentos-->
+        <div class="alert alert-info d-flex justify-content-center" role="alert">
+            15% de descuento ingresando tu correo:<a href="#formulario de descuento">Aqui!</a> 
+          </div>
+<!--Reseñas de los clientes-->
+        <h2 >Reseñas de nuestros clientes</h2>
+        <div id="reviews" class="col-12 col-lg-6">
+            <div class="review">
+              <img src="./img/CR7.avif">
+              <p>⭐⭐⭐⭐⭐</p>
+              <p>"Excelentes mascarillas,buenos cortes de barba,SIUUUUUU"</p>
+              <small>-Cristian Ronaldo</small>
+            </div> 
+            <div class="review">
+                <img src="./img/dwayne.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Excelentes mascarillas,buenos cortes de barba"</p>
+                <small>- Dwayne Johnson</small>
+            </div> 
+            <div class="review">
+                <img src="./img/ana.jpg" >
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Excelente servicio, muy recomendable."</p>
+                <small>- Ana López</small>
+            </div>
+            <div class="review">
+                <img src="./img/carlos.jpg">
+                <p>⭐⭐⭐⭐</p>
+                <p>"Exelente atencion,muy buenos barberos"</p>
+                <small>- Carlos Méndez</small>
+            </div>
+            <div class="review">
+                <img src="./img/emanuel.jpg">
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>"Exelente corte, muy buena atencion al cliente"</p>
+                <small>- Emanuel Chavez</small>
+            </div>
+            <div class="review">
+                <img src="./img/luciana.jpg">
+                <p>⭐⭐⭐</p>
+                <p>"Su especialidad no son los cortes para mujer,pero muy buena atencion al cliente"</p>
+                <small>- Luciana Salgado</small>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <footer>
+        <p>Stylin Barber &copy; 2025
+            <br>Correo Electronico : Stylinbarbershop@gmail.com 
+            <br>Servicio la cliente lineas de Whatsapp: 3012598457 - 3257841523  
+        </p>
+    </footer>
+
+</body>
+</html>

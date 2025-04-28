@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    height: 70px;
+    background-color: #8B0000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header{
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right:10px;
+}
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+}
+nav a:hover {
+    color: white;
+}
+.month{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    background-color: beige;
+}
+.contenedor{
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo de las celdas */
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo de las cabeceras */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  /* Estilo de las filas */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilo de la tabla cuando se muestra alerta */
+  #alerta {
+    margin-top: 20px;
+    font-size: 1.1em;
+  }
+
+
